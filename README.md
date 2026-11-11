@@ -1,34 +1,60 @@
-# React + TypeScript + Vite
+# NeighbourLink
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Beyond walls, building bonds.**
 
-Currently, two official plugins are available:
+NeighbourLink is a prototype for making it easier for neighbours to feel welcome and included. It brings open invitations and community information into a shared, friendly space—so nobody has to guess whether they belong.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What’s inside
 
-## React Compiler
+- **Open Door Board** — a digital noticeboard for community invitations, with sample cards and neighbour notes.
+- **Mirror Page** — a read-only view of open invitations, with a larger-text accessibility option.
+- **Season Card** — a seasonal calendar and community dates.
+- **The Threshold** — an interactive doorstep-themed experience.
+- **Brand & Story** — the project’s purpose and design language.
+- **Small touches** — mobile navigation and an optional door chime.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project is a front-end prototype. It uses sample data, and cards or notes added during a visit are held in app state only; they are not saved to a server or shared between visitors.
 
-## Expanding the Oxlint configuration
+## Getting started
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+You’ll need [Node.js](https://nodejs.org/) and npm.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+git clone https://github.com/Pragun098/NeighbourLink.git
+cd NeighbourLink
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Open the local URL printed by Vite in your terminal.
 
-# NeighbourLink
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server. |
+| `npm run build` | Type-check and create a production build in `dist/`. |
+| `npm run preview` | Preview the production build locally. |
+| `npm run lint` | Run Oxlint. |
+
+## Tech stack
+
+- React and TypeScript
+- Vite
+- Tailwind CSS
+- Lucide icons
+
+## Project structure
+
+```text
+src/
+  components/   UI grouped by experience
+  data/         sample content
+  types/        shared TypeScript types
+  utils/        shared utilities, including the door chime
+  App.tsx       app navigation and state
+```
+
+## Contributing
+
+Contributions and suggestions are welcome. For larger changes, please open an issue first to discuss the proposed direction.
