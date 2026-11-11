@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" fill="none">
+  <!-- Lamp in the gap -->
+  <circle cx="50" cy="38" r="14" fill="#EBA43B" />
+  
+  <!-- Left House (Terracotta) -->
+  <path d="M 8 42 L 28 22 L 44 38 L 44 76 L 8 76 Z" fill="#B94A31" />
+  <!-- Left House Arch Door -->
+  <path d="M 21 76 L 21 58 A 5 5 0 0 1 31 58 L 31 76 Z" fill="#FAF4E9" />
+
+  <!-- Right House (Ink) -->
+  <path d="M 56 38 L 72 22 L 92 42 L 92 76 L 56 76 Z" fill="#1F3A3D" />
+  <!-- Right House Arch Door -->
+  <path d="M 69 76 L 69 58 A 5 5 0 0 1 79 58 L 79 76 Z" fill="#FAF4E9" />
+</svg>
