@@ -2,6 +2,8 @@
 
 **Beyond walls, building bonds.**
 
+[Live demo](https://neighbour-link-d6mo.vercel.app/)
+
 NeighbourLink is a prototype for making it easier for neighbours to feel welcome and included. It brings open invitations and community information into a shared, friendly space—so nobody has to guess whether they belong.
 
 ## What’s inside
